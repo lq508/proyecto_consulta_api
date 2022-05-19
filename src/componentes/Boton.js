@@ -6,8 +6,6 @@ function Boton(props){
   let Evitar_cargado = e=>{
 
     e.preventDefault();
-
-    console.log("gola");
     props.Consulta();
 
   }

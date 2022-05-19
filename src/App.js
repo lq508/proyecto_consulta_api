@@ -32,7 +32,6 @@ function App() {
   let Consulta = async ()=>{
     let valores = await fetch("https://randomuser.me/api");
     let valores_json = await valores.json();
-    console.log(usuarios);
 
     Agregar_usuario(valores_json);
 
