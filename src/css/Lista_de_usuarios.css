@@ -1,0 +1,41 @@
+.contenedor_usuarios{
+  width: 100%;
+  margin-top: 30px;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows:auto;
+
+
+}
+
+@media screen and (max-width:800px) {
+  .contenedor-informacion{
+    grid-template-columns: 100%;
+
+  }
+
+  .contenedor_usuarios{
+    grid-template-columns: 50% 50%;
+
+  }
+
+}
+
+
+@media screen and (max-width:650px) {
+  .contenedor-informacion{
+    grid-template-columns: 100%;
+
+  }
+
+  .contenedor_usuarios{
+    grid-template-columns: 100%;
+
+  }
+
+}
